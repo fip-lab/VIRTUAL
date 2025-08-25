@@ -1,0 +1,31 @@
+Accuracy: 0.520
+Accuracy for label 0: 0.887
+Accuracy for label 1: 0.420
+Accuracy for label 2: 0.393
+Accuracy for label 3: 0.402
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.35      0.89      0.50       106
+           B       0.81      0.42      0.55       112
+           C       0.77      0.39      0.52       112
+           D       0.79      0.40      0.53       112
+
+    accuracy                           0.52       442
+   macro avg       0.68      0.53      0.53       442
+weighted avg       0.68      0.52      0.53       442
+
+
+Confusion Matrix:
+[[94  5  3  4]
+ [57 47  3  5]
+ [64  1 44  3]
+ [55  5  7 45]]
+
+Accuracy by Difficulty Level:
+                mean  count
+difficulty                 
+hard        0.386364     88
+medium      0.493274    223
+simple      0.656489    131

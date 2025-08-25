@@ -1,0 +1,9 @@
+transformers==4.12.2
+sklearn
+datasets==2.3.2
+seqeval==1.2.2
+cn2an
+thefuzz
+pypinyin
+xlrd
+python-Levenshtein
